@@ -34,3 +34,7 @@ Using Git effectively in a team environment requires some additional skills beyo
 ## Using Git with Data Science
 
 Git can be particularly useful for data science projects, but it does require some special considerations. In this section, we'll cover topics like how to manage Jupyter notebooks with Git, how to version control data files, and how to use Git with popular data science tools like Python, R, and SQL.
+
+## Git Best Practices
+
+To use Git effectively, it's important to follow best practices for organizing your code and collaborating with others. In this section, we'll cover tips for creating effective commit messages, how to organize your Git repository, and how to use Git effectively for code review and continuous integration.
