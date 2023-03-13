@@ -34,3 +34,7 @@ $ git init
 ## Tracking Changes
 
 Once you have a repository set up, you can start tracking changes to your files. To track changes, you first need to add the file to the staging area using the `git add` command. Once a file is in the staging area, you can commit the changes using the `git commit` command.
+```bash
+$ git add my_file.py
+$ git commit -m "Added a new file"
+```
