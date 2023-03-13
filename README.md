@@ -30,3 +30,7 @@ Once you're comfortable with the basics of Git, you'll want to learn how to use 
 ## Collaborating with Git
 
 Using Git effectively in a team environment requires some additional skills beyond just branching and merging. In this section, we'll cover topics like how to collaborate on code changes, how to use Git to review code, and how to manage conflicts that arise when two people make changes to the same code at the same time.
+
+## Using Git with Data Science
+
+Git can be particularly useful for data science projects, but it does require some special considerations. In this section, we'll cover topics like how to manage Jupyter notebooks with Git, how to version control data files, and how to use Git with popular data science tools like Python, R, and SQL.
