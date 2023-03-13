@@ -16,3 +16,8 @@ This repository provides a comprehensive guide to using Git for data science, co
 ## Why Use Git for Data Science?
 
 Git is a powerful tool for version control, allowing you to track changes to your code and collaborate with others effectively. In the context of data science, Git is particularly useful because it allows you to version control not only your code but also your data, ensuring that you can always reproduce your analysis and results.
+
+
+## Getting Started with Git
+
+If you're new to Git, this section will cover everything you need to get started. We'll cover topics like how to install Git, creating a new Git repository, and the key Git commands like `git init`, `git add`, and `git commit`. By the end of this section, you'll have a solid foundation in Git and be ready to move on to more advanced topics.
