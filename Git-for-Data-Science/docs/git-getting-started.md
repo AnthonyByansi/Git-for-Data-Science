@@ -15,7 +15,7 @@ After you have downloaded Git, you can check if it's installed correctly by open
 ## Basic Git Terminology
 Before you start using Git, it's important to understand some basic terminology:
 
-* Repository: A repository, or repo for short, is a collection of files that are tracked by Git. Repositories can be stored locally on your computer or on a remote server like GitHub.
+* **Repository**: A repository, or *repo* for short, is a collection of files that are tracked by Git. Repositories can be stored locally on your computer or on a remote server like GitHub.
 
 * Commit: A commit is a snapshot of a repository at a particular point in time. Each commit has a unique identifier, called a hash, that allows you to reference it later.
 
