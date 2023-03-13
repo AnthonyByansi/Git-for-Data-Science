@@ -38,3 +38,7 @@ Git can be particularly useful for data science projects, but it does require so
 ## Git Best Practices
 
 To use Git effectively, it's important to follow best practices for organizing your code and collaborating with others. In this section, we'll cover tips for creating effective commit messages, how to organize your Git repository, and how to use Git effectively for code review and continuous integration.
+
+## Advanced Git Techniques
+
+Once you've mastered the basics of Git, there are some more advanced techniques that can help you use Git more effectively. In this section, we'll cover topics like how to use Git hooks, how to manage Git submodules, and how to use Git with continuous delivery pipelines.
