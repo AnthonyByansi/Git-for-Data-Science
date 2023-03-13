@@ -25,3 +25,17 @@ Conflicts can occur when two or more collaborators make changes to the same file
 * **Use a merge tool** : Git provides a merge tool that can help you resolve conflicts. The merge tool allows you to compare the changes made by each collaborator and choose which changes to keep.
 
 * **Rebase your branch** : If your branch has fallen behind the main branch, you can use the `git rebase` command to apply the changes from the main branch to your branch.
+
+## Git Workflow
+
+The Git workflow for a collaborative data science project should follow these steps:
+
+* **Create a new branch** : Each collaborator should create a new branch to work on.
+
+* **Make changes** : Collaborators should make changes to their own branch.
+
+* **Push changes** : Collaborators should push their changes to the remote repository regularly.
+
+* **Create pull request** : Once a feature is complete, collaborators should create a pull request to merge their changes into the main branch.
+
+* **Review and merge** : Other collaborators should review the changes and provide feedback. Once the changes are approved, they can be merged into the main branch.
