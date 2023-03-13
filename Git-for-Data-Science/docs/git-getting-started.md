@@ -22,3 +22,7 @@ Before you start using Git, it's important to understand some basic terminology:
 * Branch: A branch is a version of a repository that diverges from the main codebase. Branches are useful for developing new features or experimenting with changes without affecting the main codebase.
 
 * Merge: Merging is the process of combining two or more branches into a single branch. This is typically done when a feature is complete and needs to be integrated into the main codebase.
+
+## Creating a Git Repository
+
+To create a new Git repository, navigate to the directory where you want to store your files and run the command `git init`. This command will create a new repository in the current directory.
