@@ -24,4 +24,4 @@ Conflicts can occur when two or more collaborators make changes to the same file
 
 * **Use a merge tool** : Git provides a merge tool that can help you resolve conflicts. The merge tool allows you to compare the changes made by each collaborator and choose which changes to keep.
 
-* **Rebase your branch** : If your branch has fallen behind the main branch, you can use the git rebase command to apply the changes from the main branch to your branch.
+* **Rebase your branch** : If your branch has fallen behind the main branch, you can use the `git rebase` command to apply the changes from the main branch to your branch.
