@@ -38,3 +38,9 @@ Once you have a repository set up, you can start tracking changes to your files.
 $ git add my_file.py
 $ git commit -m "Added a new file"
 ```
+
+## Working with Remote Repositories
+
+To collaborate with others on a Git project, you'll need to work with remote repositories. GitHub is a popular remote repository hosting service that provides free Git hosting for open source projects. You can also use other Git hosting services like GitLab or Bitbucket.
+
+To work with a remote repository, you first need to create a new repository on the hosting service of your choice. Once the repository is created, you can clone it to your local computer using the `git clone` command.
