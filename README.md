@@ -42,3 +42,7 @@ To use Git effectively, it's important to follow best practices for organizing y
 ## Advanced Git Techniques
 
 Once you've mastered the basics of Git, there are some more advanced techniques that can help you use Git more effectively. In this section, we'll cover topics like how to use Git hooks, how to manage Git submodules, and how to use Git with continuous delivery pipelines.
+
+## Contributing to This Guide
+
+This guide is a community-driven project, and we welcome contributions from anyone interested in improving
