@@ -26,3 +26,8 @@ Before you start using Git, it's important to understand some basic terminology:
 ## Creating a Git Repository
 
 To create a new Git repository, navigate to the directory where you want to store your files and run the command `git init`. This command will create a new repository in the current directory.
+
+``
+$ cd /path/to/my/project
+$ git init
+```
