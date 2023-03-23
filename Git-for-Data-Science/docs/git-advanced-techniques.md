@@ -21,3 +21,4 @@ To cherry-pick a commit, first, switch to the branch that you want to apply the 
 
 
 ## Submodules
+Submodules allow you to include one Git repository within another Git repository. 
