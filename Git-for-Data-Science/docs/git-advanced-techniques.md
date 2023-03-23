@@ -13,5 +13,5 @@ While rebase can be a powerful tool for managing Git history, it should be used 
 ## Interactive Rebase
 The interactive rebase is a variation of the rebase command that allows you to selectively apply, modify, or delete commits from a branch's history. This can be useful for cleaning up your Git history, squashing multiple commits into a single commit, or reordering commits.
 
-To perform an interactive rebase, use the git rebase -i command followed by the name of the branch that you want to modify. Git will then open a text editor that allows you to edit the list of commits in the branch's history.  You can then modify the commits by reordering them, squashing them together, or deleting them altogether.
+To perform an interactive rebase, use the `git rebase -i` command followed by the name of the branch that you want to modify. Git will then open a text editor that allows you to edit the list of commits in the branch's history.  You can then modify the commits by reordering them, squashing them together, or deleting them altogether.
 
