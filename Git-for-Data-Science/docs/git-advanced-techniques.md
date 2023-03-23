@@ -24,3 +24,5 @@ To cherry-pick a commit, first, switch to the branch that you want to apply the 
 
 Submodules allow you to include one Git repository within another Git repository. This can be useful when you want to reuse code from an external library or when you want to keep related projects in a single repository.
 To add a submodule to your Git repository, use the `git submodule add` command followed by the URL of the repository that you want to include.  Git will then create a new directory within your repository that contains a clone of the external repository.
+
+## Git Hooks
