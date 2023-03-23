@@ -18,3 +18,6 @@ To perform an interactive rebase, use the `git rebase -i` command followed by th
 ## Cherry-pick
 Cherry-pick is a Git command that allows you to apply a specific commit from one branch to another branch. This can be useful when you want to apply a specific fix or feature to a branch without merging the entire branch.
 To cherry-pick a commit, first, switch to the branch that you want to apply the commit to. Then, use the git cherry-pick command followed by the commit hash of the commit that you want to apply. Git will then apply the changes from that commit to the current branch.
+
+
+## Submodules
