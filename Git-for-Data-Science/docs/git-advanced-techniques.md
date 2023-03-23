@@ -28,3 +28,5 @@ To add a submodule to your Git repository, use the `git submodule add` command f
 ## Git Hooks
 Git hooks are scripts that are automatically executed by Git before or after certain events, such as committing or merging changes. Git hooks can be used to automate tasks, enforce coding standards, or perform tests.
 Git comes with several built-in hooks, such as **pre-commit** and **post-merge** hooks. 
+
+You can also create your own custom hooks by adding executable scripts to the `.git/hooks` directory of your repository.
