@@ -9,3 +9,6 @@ Git rebase is a technique that allows you to apply a series of changes from one 
 To perform a rebase, you first need to switch to the branch that you want to apply the changes to. Then, use the `git rebase` command followed by the name of the branch that contains the changes you want to apply. Git will then replay each commit from the other branch onto the current branch, one at a time. 
 
 While rebase can be a powerful tool for managing Git history, it should be used with caution, as it can cause conflicts and overwrite existing changes.
+
+## Interactive Rebase
+
