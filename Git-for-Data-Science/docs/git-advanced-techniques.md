@@ -15,3 +15,4 @@ The interactive rebase is a variation of the rebase command that allows you to s
 
 To perform an interactive rebase, use the `git rebase -i` command followed by the name of the branch that you want to modify. Git will then open a text editor that allows you to edit the list of commits in the branch's history.  You can then modify the commits by reordering them, squashing them together, or deleting them altogether.
 
+## Cherry-pick
