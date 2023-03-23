@@ -26,4 +26,5 @@ Submodules allow you to include one Git repository within another Git repository
 To add a submodule to your Git repository, use the `git submodule add` command followed by the URL of the repository that you want to include.  Git will then create a new directory within your repository that contains a clone of the external repository.
 
 ## Git Hooks
-Git hooks are scripts that are automatically executed by Git before or after certain events, such as committing or merging changes. Git hooks can be used to automate tasks, enforce coding standards, or perform tests
+Git hooks are scripts that are automatically executed by Git before or after certain events, such as committing or merging changes. Git hooks can be used to automate tasks, enforce coding standards, or perform tests.
+Git comes with several built-in hooks, such as **pre-commit** and **post-merge** hooks. 
