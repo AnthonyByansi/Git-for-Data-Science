@@ -11,5 +11,5 @@ To perform a rebase, you first need to switch to the branch that you want to app
 While rebase can be a powerful tool for managing Git history, it should be used with caution, as it can cause conflicts and overwrite existing changes.
 
 ## Interactive Rebase
-The interactive rebase is a variation of the rebase command that allows you to selectively apply, modify, or delete commits from a branch's history. 
+The interactive rebase is a variation of the rebase command that allows you to selectively apply, modify, or delete commits from a branch's history. This can be useful for cleaning up your Git history, squashing multiple commits into a single commit, or reordering commits.
 
