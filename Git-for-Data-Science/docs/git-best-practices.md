@@ -15,3 +15,4 @@ To set up a Git hook, create a script in the `.git/hooks` directory of your repo
 npm run lint
 ```
 Then make it executable with the following command: `chmod +x .git/hooks/pre-commit`
+Now, every time you try to commit changes, the `npm run lint` command will be run automatically, and the commit will be aborted if there are any syntax errors.
