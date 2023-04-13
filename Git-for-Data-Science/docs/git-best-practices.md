@@ -4,7 +4,7 @@ Version control systems are essential for any DataScience  project, and Git has 
 
 Here are some advanced Git best practices to take your workflow to the next level.
 
-1. Use Git Hooks
+##  Use Git Hooks
 Git hooks allow you to run custom scripts before or after certain Git actions, such as committing, pushing, or merging. This can be useful for enforcing coding standards, running automated tests, or generating documentation. You can find many pre-written hooks on GitHub, or write your own to suit your project's needs.
 
 To set up a Git hook, create a script in the `.git/hooks` directory of your repository and make it executable.
@@ -17,7 +17,7 @@ npm run lint
 Then make it executable with the following command: `chmod +x .git/hooks/pre-commit`
 Now, every time you try to commit changes, the `npm run lint` command will be run automatically, and the commit will be aborted if there are any syntax errors.
 
-2. Use Git aliases
+## Use Git aliases
 Git aliases allow you to create custom shortcuts for frequently used Git commands. This can save you a lot of time and typing, especially for complex commands with many arguments. You can set up aliases for any Git command, or even for custom scripts or external commands.
 
 To set up a Git alias, use the `git config` command with the `alias.<name>` syntax, where `<name>` is the name of your alias.
@@ -28,3 +28,8 @@ Now you can run `git s` instead of `git status` to get the same output.
 You can also create more complex aliases with arguments or options. For example, to create an alias called `hist` that shows a concise commit history with one-line summaries, run the following command: `git config --global alias.hist "log --pretty=format:'%h %s [%an]' --graph"`
 
 Now you can run `git hist` to get a compact commit history with graph visualization and author names.
+
+## Use Git Workflows
+Git workflows are a set of guidelines for collaborating on a project using Git. They provide a clear structure for branching, merging, and releasing code, and help prevent conflicts and errors.
+
+There are many Git workflows to choose from, depending on the size and complexity of your project. Some popular workflows include:
