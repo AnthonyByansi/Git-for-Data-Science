@@ -33,3 +33,6 @@ Now you can run `git hist` to get a compact commit history with graph visualizat
 Git workflows are a set of guidelines for collaborating on a project using Git. They provide a clear structure for branching, merging, and releasing code, and help prevent conflicts and errors.
 
 There are many Git workflows to choose from, depending on the size and complexity of your project. Some popular workflows include:
+* Gitflow: A branching model that uses two main branches, `master` and `develop`, to manage releases and features respectively.
+* GitHub Flow: A simple workflow that uses a single `master` branch and feature branches for development, with continuous integration and deployment.
+* Trunk-based Development: A continuous integration and delivery workflow that uses a single `trunk` branch, with feature toggles and short-lived feature branches.
