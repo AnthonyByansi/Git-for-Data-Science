@@ -49,3 +49,17 @@ This will create a new directory called `jquery` in your repository, containing 
 To update the submodule to the latest version, use the git submodule update command. `git submodule update --remote`
 
 This will update the `jquery` submodule to the latest version available on the remote repository.
+
+## Use Git Reflog
+
+Git reflog is a command that shows a log of all the changes to the Git repository's references, such as commits, branches, and tags. This can be useful for recovering lost or deleted commits, or undoing mistaken actions.
+
+To view the reflog, use the `git reflog` command. `git reflog`
+
+This will show a log of all the changes to the repository's references, with a timestamp and a description of each change.
+
+You can use the reflog to recover lost or deleted commits by finding the commit hash in the log and checking it out.
+```
+git checkout HEAD@{2}
+
+```
