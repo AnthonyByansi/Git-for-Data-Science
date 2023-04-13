@@ -26,3 +26,5 @@ For example, to create an alias called `s` for the `status` command, run the fol
 Now you can run `git s` instead of `git status` to get the same output.
 
 You can also create more complex aliases with arguments or options. For example, to create an alias called `hist` that shows a concise commit history with one-line summaries, run the following command: `git config --global alias.hist "log --pretty=format:'%h %s [%an]' --graph"`
+
+Now you can run `git hist` to get a compact commit history with graph visualization and author names.
