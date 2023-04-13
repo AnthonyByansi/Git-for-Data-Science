@@ -14,3 +14,4 @@ To set up a Git hook, create a script in the `.git/hooks` directory of your repo
 #!/bin/sh
 npm run lint
 ```
+Then make it executable with the following command: `chmod +x .git/hooks/pre-commit`
