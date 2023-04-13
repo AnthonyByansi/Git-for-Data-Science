@@ -16,3 +16,6 @@ npm run lint
 ```
 Then make it executable with the following command: `chmod +x .git/hooks/pre-commit`
 Now, every time you try to commit changes, the `npm run lint` command will be run automatically, and the commit will be aborted if there are any syntax errors.
+
+2. Use Git aliases
+Git aliases allow you to create custom shortcuts for frequently used Git commands. This can save you a lot of time and typing, especially for complex commands with many arguments. You can set up aliases for any Git command, or even for custom scripts or external commands.
