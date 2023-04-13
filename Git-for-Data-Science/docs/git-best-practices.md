@@ -8,3 +8,4 @@ Here are some advanced Git best practices to take your workflow to the next leve
 Git hooks allow you to run custom scripts before or after certain Git actions, such as committing, pushing, or merging. This can be useful for enforcing coding standards, running automated tests, or generating documentation. You can find many pre-written hooks on GitHub, or write your own to suit your project's needs.
 
 To set up a Git hook, create a script in the `.git/hooks` directory of your repository and make it executable.
+**For example, to run a pre-commit hook that checks the code for syntax errors using `eslint`, create a file called `.git/hooks/pre-commit` with the following content:**
