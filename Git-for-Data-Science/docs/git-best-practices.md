@@ -21,4 +21,4 @@ Now, every time you try to commit changes, the `npm run lint` command will be ru
 Git aliases allow you to create custom shortcuts for frequently used Git commands. This can save you a lot of time and typing, especially for complex commands with many arguments. You can set up aliases for any Git command, or even for custom scripts or external commands.
 
 To set up a Git alias, use the `git config` command with the `alias.<name>` syntax, where `<name>` is the name of your alias.
-For example, to create an alias called `s` for the `status` command, run the following command:
+For example, to create an alias called `s` for the `status` command, run the following command:`git config --global alias.s status`
