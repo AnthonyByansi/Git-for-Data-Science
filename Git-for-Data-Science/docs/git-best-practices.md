@@ -47,3 +47,5 @@ For example, to add the `jquery` library as a submodule in your project, run the
 This will create a new directory called `jquery` in your repository, containing a clone of the `jquery` repository.
 
 To update the submodule to the latest version, use the git submodule update command. `git submodule update --remote`
+
+This will update the `jquery` submodule to the latest version available on the remote repository.
