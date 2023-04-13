@@ -9,3 +9,8 @@ Git hooks allow you to run custom scripts before or after certain Git actions, s
 
 To set up a Git hook, create a script in the `.git/hooks` directory of your repository and make it executable.
 **For example, to run a pre-commit hook that checks the code for syntax errors using `eslint`, create a file called `.git/hooks/pre-commit` with the following content:**
+
+```bash
+#!/bin/sh
+npm run lint
+```
