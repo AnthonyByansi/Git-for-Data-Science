@@ -36,3 +36,14 @@ There are many Git workflows to choose from, depending on the size and complexit
 * Gitflow: A branching model that uses two main branches, `master` and `develop`, to manage releases and features respectively.
 * GitHub Flow: A simple workflow that uses a single `master` branch and feature branches for development, with continuous integration and deployment.
 * Trunk-based Development: A continuous integration and delivery workflow that uses a single `trunk` branch, with feature toggles and short-lived feature branches.
+
+## Use Git Submodules
+Git submodules allow you to include another Git repository as a subdirectory of your main repository. This can be useful for including shared libraries, dependencies, or plugins in your project, while still keeping them separate and version-controlled.
+
+To add a submodule to your repository, use the `git submodule add` command followed by the URL of the repository you want to include.
+
+For example, to add the `jquery` library as a submodule in your project, run the following command: `git submodule add https://github.com/jquery/jquery.git`
+
+This will create a new directory called `jquery` in your repository, containing a clone of the `jquery` repository.
+
+To update the submodule to the latest version, use the git submodule update command. `git submodule update --remote`
