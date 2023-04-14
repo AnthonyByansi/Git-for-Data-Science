@@ -12,6 +12,7 @@ This repository provides a comprehensive guide to using Git for data science, co
 - [Git Best Practices](#git-best-practices)
 - [Advanced Git Techniques](#advanced-git-techniques)
 - [Contributing to This Guide](#contributing-to-this-guide)
+- more to come 
 
 ## Why Use Git for Data Science?
 
