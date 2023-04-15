@@ -50,4 +50,4 @@ $ git clone https://github.com/username/my-project.git
 
 ## Conclusion
 
->> This guide provided an introduction to Git and its basic terminology. You learned how to create a new Git repository, track changes to your files, and work with remote repositories. In the next section, we'll cover best practices for working with Git in a data science project.
+> This guide provided an introduction to Git and its basic terminology. You learned how to create a new Git repository, track changes to your files, and work with remote repositories. In the next section, we'll cover best practices for working with Git in a data science project.
